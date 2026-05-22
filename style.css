@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+}
+
+body {
+    background-color: hsl(30, 54%, 90%);
+    color: hsl(30, 10%, 34%);
+    line-height: 1.6;
+    padding: 1.25rem;
+    min-height: 100vh;
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: white;
+    border-radius: 0.625rem;
+    padding: 1.25rem;
+    max-width: 37.5rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-image {
+    width: 100%;
+    border-radius: 0.5rem;
+    
+    
+}
+
+.card-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    margin-top: 1.25rem;
+    font-family: 'Young Serif', serif;
+    font-weight: 500;
+    color: hsl(24, 5%, 18%);
+}
+
+.card-list {
+    margin-left: 1.5rem;
+}
+
+.card-list::marker {
+    color: hsl(14, 45%, 36%);
+    font-size: 1.25rem;
+}
+
+.card-list-zone {
+    margin-bottom: 1.25rem;
+    margin-top: 1.25rem;
+    background-color: hsl(330, 100%, 98%);
+}
+
+.card-list-zone-title {
+    font-size: 1rem;
+    padding: 0.625rem;
+    color: hsl(330, 100%, 20%);
+    font-weight: 600;
+}
+
+.card-list-zone-list {
+    margin-left: 1.5rem;
+    padding-bottom: 0.625rem;
+}
+
+li span {
+    font-weight: 600;
+}
+
+li {
+    margin-bottom: 0.5rem;
+    font-size: 0.875rem;
+}
+
+.card-list-zone-list li::marker {
+    color: hsl(330, 100%, 20%);
+}
+
+.card-list li::marker {
+    color: hsl(14, 45%, 36%);
+    font-size: 1rem;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+}
+
+.card-list-title {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    margin-top: 1.25rem;
+    color: hsl(14, 45%, 36%);
+    font-family: 'Young Serif', serif;
+    font-weight: 400;
+}
+
+.line {
+    width: 100%;
+    height: 0.0325rem;
+    background-color: hsla(15, 4%, 18%, 0.144);
+    margin: 1.25rem 0;
+}
+
+.nutrition-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+.nutrition-table tr {
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+.nutrition-table td {
+    padding: 1rem 2rem;
+}
+
+.nutrition-table td:last-child {
+    color: hsl(14, 45%, 36%);
+    font-size: 0.875rem;
+    font-weight: 700;
+}
+.nutrition-table tr:last-child {
+    border-bottom: none;
+}
